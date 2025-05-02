@@ -123,9 +123,9 @@ const MoleGame: React.FC = () => {
       )}
 
       <div 
+      <div 
         id="game-area"
-        className="relative w-full bg-green-100 rounded-lg border-4 border-green-800"
-        style={{ height: '400px', overflow: 'hidden' }}
+        className="relative w-full bg-gray-700 rounded-lg border-4 border-gray-600"
       >
         {isPlaying && moles.map((mole) => (
           <div
